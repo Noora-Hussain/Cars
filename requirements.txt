@@ -1,5 +1,4 @@
-stremlit == 1.37.1
-joblib == 1.4.2
-numpy
+streamlit
 pandas
-scikit-learn == 1.5.1
+scikit-learn
+joblib
