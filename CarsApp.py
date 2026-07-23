@@ -297,22 +297,23 @@ Market_Category = st.sidebar.number_input(
 )
 
 
-new_data = {'Engine HP':Engine_HP,
-            'Engine Cylinders':Engine_Cylinders,
-            'Transmission Type':Transmission_Type,
-            'Popularity':Popularity,
-            'Year':year,
-            'Make':Make,
-            'Model':Model,
-            'Engine Fuel Type':Engine_Fuel_Type,
-            'Driven_Wheels':Driven_Wheels,
-            'Number of Doors':Number_of_Doors,
-            'Vehicle Size':Vehicle_Size ,
-            'Vehicle Style':Vehicle_Style,
-            'highway MPG':highway_MPG,
-            'city mpg':city_mpg,
-            'MSRP':MSRP,
-            'Market Category':Market_Category
+new_data = {
+    'Make': Make,
+    'Model': Model,
+    'Year': year,
+    'Engine Fuel Type': Engine_Fuel_Type,
+    'Engine HP': Engine_HP,
+    'Engine Cylinders': Engine_Cylinders,
+    'Transmission Type': Transmission_Type,
+    'Driven_Wheels': Driven_Wheels,
+    'Number of Doors': Number_of_Doors,
+    'Market Category': Market_Category,
+    'Vehicle Size': Vehicle_Size,
+    'Vehicle Style': Vehicle_Style,
+    'highway MPG': highway_MPG,
+    'city mpg': city_mpg,
+    'Popularity': Popularity,
+    'MSRP': MSRP
            }
 
 new_data_df = pd.DataFrame(new_data, index=[0])
