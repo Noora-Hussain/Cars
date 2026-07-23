@@ -321,6 +321,5 @@ new_data_df = pd.DataFrame(new_data, index=[0])
 ## Prediction
 button = st.button("Predict")
 if button:
-    st.write(new_data_df)
     result = pipe.predict(new_data_df)
     st.write("The predicted result is:",result[0])
